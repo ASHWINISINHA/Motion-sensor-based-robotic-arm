@@ -20,8 +20,8 @@ Serial.begin(38400);
 Serial.println("Initialize MPU"); 
 mpu.initialize(); 
 Serial.println(mpu.testConnection() ? "Connected" : "Connection failed"); 
-  arm1.attach(9); 
-  arm2.attach(10); 
+  arm1.attach(6); 
+  arm2.attach(9); 
   arm3.attach(11); 
 
 } 
